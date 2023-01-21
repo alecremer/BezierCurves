@@ -1,7 +1,11 @@
 # Unity Bezier curves
 API that creates Bezier curves based on N control points.
 
-- Edit mode debugger;
+- Edit mode debugger
+- Real time debug in editor and gameplay
+- Baked curve to saving processing
+- Calculate normal and tangent vectors
+- Debug of parameter of parametric curve along the curve
 
 
 # Methods
@@ -44,7 +48,7 @@ public Vector3 tangent: point tangent vector
 public Vector3 normal: point normal vector
 
 
-## ControlPoin
+## ControlPoint
 Control point of Bezier curve
 
 ##### Properties
